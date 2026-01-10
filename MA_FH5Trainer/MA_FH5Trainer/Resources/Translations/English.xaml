@@ -35,6 +35,58 @@
     
     <!-- MainWindow.xaml - Hotkeys -->
     <system:String x:Key="HotkeyWatermark">Set a hotkey...</system:String>
+    
+    <!-- MainWindow.xaml - Labels -->
+    <system:String x:Key="GameTitle">Game Title</system:String>
+    <system:String x:Key="ProcessID">Process ID</system:String>
+    <system:String x:Key="Platform">Platform</system:String>
+    <system:String x:Key="Version">Version</system:String>
+    <system:String x:Key="TrainerVersion">Trainer Version</system:String>
+    <system:String x:Key="GameStatus">Game Status</system:String>
+    <system:String x:Key="Cheat">Cheat</system:String>
+    <system:String x:Key="SetCheatHotkey">Set Cheat Hotkey</system:String>
+    <system:String x:Key="SET">SET</system:String>
+    <system:String x:Key="SaveAllHotkeys">Save All Hotkeys</system:String>
+    <system:String x:Key="DonateToMerika">Donate to @merikaaaaa</system:String>
+    <system:String x:Key="CheckForUpdates">Check for updates</system:String>
+    <system:String x:Key="FH5EmoteIDs">FH5 Emote ID's</system:String>
+    <system:String x:Key="GlowingPaintInstructions">Glowing Paint Instructions</system:String>
+    <system:String x:Key="MerikasGitHub">Merika's GitHub</system:String>
+    <system:String x:Key="CheatFreeNotice">This cheat is 100% free. If you paid, you were scammed. Published by the "Merika's Server" Discord.</system:String>
+    <system:String x:Key="DeveloperNotice">Developed by @merikaaaaa on Discord. Others claiming credit are lying.</system:String>
+    
+    <!-- ExpandersView.xaml - Expanders -->
+    <system:String x:Key="AutoshowExpander">Autoshow</system:String>
+    <system:String x:Key="GarageExpander">Garage</system:String>
+    <system:String x:Key="SpeedhackExpander">Speedhack</system:String>
+    <system:String x:Key="WheelspinsExpander">Wheelspins</system:String>
+    <system:String x:Key="TimerFreezesExpander">Timer Freezes</system:String>
+    <system:String x:Key="WorldExpander">World</system:String>
+    <system:String x:Key="ExperimentalExpander">EXPERIMENTAL/UNSTABLE</system:String>
+    <system:String x:Key="MultipliersExpander">Multipliers</system:String>
+    <system:String x:Key="TuningTires">Tuning (Tires)</system:String>
+    <system:String x:Key="TuningGearing">Tuning (Gearing)</system:String>
+    <system:String x:Key="TuningAlignment">Tuning (Alignment)</system:String>
+    <system:String x:Key="TuningSprings">Tuning (Springs)</system:String>
+    <system:String x:Key="TuningDamping">Tuning (Damping)</system:String>
+    <system:String x:Key="TuningAero">Tuning (Aero)</system:String>
+    <system:String x:Key="TuningSteering">Tuning (Steering)</system:String>
+    <system:String x:Key="TuningMiscellaneous">Tuning (Miscellaneous)</system:String>
+    
+    <!-- Autoshow.xaml - More strings -->
+    <system:String x:Key="AllCarsInAutoshow">All Cars In The Autoshow</system:String>
+    <system:String x:Key="OnlyRareCarsInAutoshow">Only Rare Cars In The Autoshow</system:String>
+    <system:String x:Key="FreeCars">Free Cars</system:String>
+    
+    <!-- Unlocks.xaml -->
+    <system:String x:Key="Currency">Currency: </system:String>
+    <system:String x:Key="Add">Add</system:String>
+    
+    <!-- Handling.xaml -->
+    <system:String x:Key="VelocityHotkey">Velocity (Hotkey)</system:String>
+    <system:String x:Key="WheelspeedHotkey">Wheelspeed (Hotkey)</system:String>
+    <system:String x:Key="JumpHackHotkey">Jump Hack (Hotkey)</system:String>
+    <system:String x:Key="SuperBrakeHotkey">Super Brake (Hotkey)</system:String>
 
     <!-- DebugWindow.xaml -->
     <system:String x:Key="HookFeaturesDebugList">Hook/Features Debug List</system:String>

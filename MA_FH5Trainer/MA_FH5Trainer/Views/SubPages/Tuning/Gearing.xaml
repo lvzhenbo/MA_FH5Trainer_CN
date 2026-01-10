@@ -21,7 +21,7 @@
                     
                     <Label VerticalAlignment="Center"
                            Margin="5 0 0 0"
-                           Content="Tuning settings will appear here after scanning."/>
+                           Content="调校设置将在扫描后显示。"/>
                     
                     <Button HorizontalAlignment="Center"
                             Content="{DynamicResource Scan}"

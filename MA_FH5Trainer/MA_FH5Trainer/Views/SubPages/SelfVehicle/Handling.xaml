@@ -48,7 +48,7 @@
                        VerticalAlignment="Center"
                        Padding="0"
                        Margin="2 0 0 0"
-                       Content="Strength:"/>
+                       Content="强度:"/>
 
                 <mah:NumericUpDown x:Name="VelocityLimit"
                                    Grid.Column="3"
@@ -73,7 +73,7 @@
                        VerticalAlignment="Center"
                        Padding="0"
                        Margin="8 0 0 0"
-                       Content="Limit:"/>
+                       Content="限制:"/>
                 
                 <mah:ToggleSwitch Grid.Column="4"
                                   x:Name="VelSwitch"
@@ -81,7 +81,7 @@
                                   MinWidth="0"
                                   FontSize="12"
                                   Margin="4 0 0 0"
-                                  Content="Velocity (Hotkey)"
+                                  Content="速度（热键）"
                                   IsEnabled="{Binding ViewModel.AreUiElementsEnabled, Mode=OneWay}"
                                   Toggled="VelocitySwitch_OnToggled"/>
             </Grid>
@@ -125,7 +125,7 @@
                        Padding="0"
                        Margin="2 0 0 0"
                        VerticalAlignment="Center"
-                       Content="Mode:"/>
+                       Content="模式:"/>
                 
                 <mah:NumericUpDown x:Name="WheelspeedValueBox"
                                    Grid.Column="3"
@@ -151,7 +151,7 @@
                        VerticalAlignment="Center"
                        Padding="0"
                        Margin="8 0 0 0"
-                       Content="Value:"/>
+                       Content="数值:"/>
                 
                 <mah:NumericUpDown x:Name="WheelspeedLimit" 
                                    Grid.Column="5"
@@ -177,7 +177,7 @@
                        VerticalAlignment="Center"
                        Padding="0"
                        Margin="8 0 0 0"
-                       Content="Limit:"/>
+                       Content="限制:"/>
                 
                 <mah:ToggleSwitch Grid.Column="6"
                                   x:Name="WheelSwitch"
@@ -185,7 +185,7 @@
                                   Margin="4 0 0 0"
                                   MinWidth="0"
                                   FontSize="12"
-                                  Content="Wheelspeed (Hotkey)"
+                                  Content="轮速（热键）"
                                   IsEnabled="{Binding ViewModel.AreUiElementsEnabled, Mode=OneWay}"
                                   Toggled="WheelspeedSwitch_OnToggled"/>
             </Grid>
@@ -225,7 +225,7 @@
                 <mah:ToggleSwitch x:Name="ModifierToggleSwitch" 
                                   Grid.Column="2"
                                   VerticalAlignment="Center"
-                                  Content="Acceleration"
+                                  Content="加速"
                                   MinWidth="0"
                                   FontSize="12"
                                   Margin="0 0 0 0"
@@ -270,7 +270,7 @@
                 
                 <mah:ToggleSwitch x:Name="GravToggleSwitch" 
                                   Grid.Column="2"
-                                  Content="Gravity"
+                                  Content="重力"
                                   VerticalAlignment="Center"
                                   MinWidth="0"
                                   FontSize="12"
@@ -329,7 +329,7 @@
                                   Margin="5 0 0 0"
                                   MinWidth="0"
                                   FontSize="12"
-                                  Content="Jump Hack (Hotkey)"
+                                  Content="跳跃修改（热键）"
                                   IsEnabled="{Binding ViewModel.AreUiElementsEnabled, Mode=OneWay}"
                                   Toggled="JumpSwitch_OnToggled"/>
             </Grid>
@@ -431,7 +431,7 @@
                                   Margin="5 0 0 0"
                                   MinWidth="0"
                                   FontSize="12"
-                                  Content="Super Brake (Hotkey)"
+                                  Content="超级刹车（热键）"
                                   IsEnabled="{Binding ViewModel.AreUiElementsEnabled, Mode=OneWay}"
                                   Toggled="StopSwitch_OnToggled"/>
                 

@@ -20,7 +20,7 @@
                 <mah:ToggleSwitch VerticalAlignment="Center"
                                   MinWidth="0"
                                   FontSize="12"
-                                  Content="Race Timer Freeze"
+                                  Content="比赛计时器冻结"
                                   Toggled="ToggleSwitch_Toggled"
                                   ContentPadding="-5 0 0 0"/>
 
@@ -29,14 +29,14 @@
                                   FontSize="12"
                                   Margin="8 0"
                                   Toggled="ToggleSwitch_Toggled_1"
-                                  Content="Trailblazer Timer Freeze"
+                                  Content="探路者计时器冻结"
                                   ContentPadding="-5 0 0 0"/>
                 
                 <mah:ToggleSwitch VerticalAlignment="Center"
                                   MinWidth="0"
                                   FontSize="12"
                                   Toggled="ToggleSwitch_Toggled_2"
-                                  Content="Mission Timer Freeze"
+                                  Content="任务计时器冻结"
                                   ContentPadding="-5 0 0 0"/>
             </StackPanel>
         </Border>

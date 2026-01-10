@@ -35,7 +35,7 @@
                                  IsEnabled="{Binding ViewModel.AreSunRgbUiElementsEnabled}"/>
                 
                 <Label Grid.Column="0" 
-                       Content="Color:"
+                       Content="颜色:"
                        Foreground="White"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center"/>
@@ -54,7 +54,7 @@
                                    BorderBrush="{DynamicResource MahApps.Brushes.AccentBase}"/>
                 
                 <Label Grid.Column="2" 
-                           Content="Intensity:" 
+                           Content="强度:"
                            Foreground="White"
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center"/>
@@ -88,7 +88,7 @@
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
                                     
-                    <Label Content="Time:" VerticalAlignment="Center"/>
+                    <Label Content="时间:" VerticalAlignment="Center"/>
                     <mah:NumericUpDown x:Name="TimeBox" 
                                        Grid.Column="1"
                                        VerticalAlignment="Center"
@@ -108,7 +108,7 @@
                             Margin="5 0"
                             IsEnabled="{Binding ViewModel.AreManualTimeUiElementsEnabled, Mode=OneWay}"
                             mah:ControlsHelper.FocusBorderThickness="0"
-                            Content="PULL"
+                            Content="拉取"
                             Click="PullButton_OnClick"
                             Background="{DynamicResource MahApps.Brushes.AccentBase}"
                             BorderBrush="{DynamicResource MahApps.Brushes.AccentBase}"/>
@@ -134,7 +134,7 @@
                                       Margin="5 0"
                                       MinWidth="0"
                                       FontSize="12"
-                                      Content="Freeze AI (in races)"
+                                      Content="冻结AI（在比赛中）"
                                       Toggled="FreezeAiSwitch_OnToggled"/>
                 
                 </StackPanel>

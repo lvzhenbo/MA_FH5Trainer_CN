@@ -47,7 +47,7 @@
                                   MinWidth="0"
                                   FontSize="12"
                                   Toggled="DriftHackToggle_Toggled"
-                                  Content="Drift Zone Points Multiplier"/>
+                                  Content="漂移区点数倍率"/>
             </Grid>
         </Border>
         <Border Style="{StaticResource CommonBorderStyle}">
@@ -84,7 +84,7 @@
                                   MinWidth="0"
                                   FontSize="12"
                                   Toggled="SpeedHackToggle_Toggled"
-                                  Content="Speed Zone Speed Multiplier"/>
+                                  Content="限速区速度倍率"/>
             </Grid>
         </Border>
         <Border Style="{StaticResource CommonBorderStyle}">
@@ -122,7 +122,7 @@
                                   MinWidth="0"
                                   FontSize="12"
                                   Toggled="SignHackToggle_Toggled"
-                                  Content="Danger Sign Distance Multiplier"/>
+                                  Content="危险标志距离倍率"/>
             </Grid>
         </Border>
         <Border Style="{StaticResource CommonBorderStyle}">
@@ -160,7 +160,7 @@
                                   MinWidth="0"
                                   FontSize="12"
                                   Toggled="TrapHackToggle_Toggled"
-                                  Content="Speed Trap Speed Multiplier"/>
+                                  Content="测速点速度倍率"/>
             </Grid>
         </Border>
         <Border Style="{StaticResource CommonBorderStyle}">
@@ -198,7 +198,7 @@
                                   MinWidth="0"
                                   FontSize="12"
                                   Toggled="SkillHackToggle_Toggled"
-                                  Content="Skill Score Multiplier"/>
+                                  Content="技能分数倍率"/>
             </Grid>
         </Border>
     </StackPanel>

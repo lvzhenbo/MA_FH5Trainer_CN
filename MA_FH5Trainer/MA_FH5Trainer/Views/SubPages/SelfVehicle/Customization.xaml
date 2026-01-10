@@ -100,7 +100,7 @@
                                   Margin="5 0 0 0"
                                   MinWidth="0"
                                   FontSize="12"
-                                  Content="Glowing Paint"
+                                  Content="发光车漆"
                                   IsOn="{Binding ViewModel.GlowingPaintIsOn}"
                                   Toggled="PaintSwitchOnToggled"/>
                 
@@ -132,7 +132,7 @@
                 
                 <Label Grid.Column="0"
                        VerticalAlignment="Center"
-                       Content="Min time:"/>
+                       Content="最短时间:"/>
                 
                 <mah:NumericUpDown x:Name="MaxBackfire" 
                                    Grid.Column="3"
@@ -148,7 +148,7 @@
                 
                 <Label Grid.Column="2"
                        VerticalAlignment="Center"
-                       Content="Max time:"/>
+                       Content="最长时间:"/>
                 
                 <mah:ToggleSwitch Grid.Column="4"
                                   VerticalAlignment="Center"
@@ -185,7 +185,7 @@
                                   Margin="5 0 0 0"
                                   MinWidth="0"
                                   FontSize="12"
-                                  Content="Headlight Colour (Works in night time)"
+                                  Content="车灯颜色（夜间生效）"
                                   Toggled="HeadlightSwitch_OnToggled"/>
                 
             </Grid>
