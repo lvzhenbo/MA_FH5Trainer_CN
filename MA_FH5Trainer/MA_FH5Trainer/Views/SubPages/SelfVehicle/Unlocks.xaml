@@ -23,7 +23,7 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <Label VerticalAlignment="Center" Content="Currency: "></Label>
+                <Label VerticalAlignment="Center" Content="货币: "></Label>
 
                 <ComboBox Grid.Column="1"
                           x:Name="InstantAddBox"
@@ -33,13 +33,13 @@
                           Background="{DynamicResource MahApps.Brushes.AccentBase}"
                           BorderBrush="{DynamicResource MahApps.Brushes.AccentBase}">
                     
-                    <ComboBoxItem Content="Credits"/>
-                    <ComboBoxItem Content="XP" />
-                    <ComboBoxItem Content="Forzathon Points" />
+                    <ComboBoxItem Content="金币"/>
+                    <ComboBoxItem Content="经验值" />
+                    <ComboBoxItem Content="Forzathon点数" />
                     
                 </ComboBox>
                 
-                <Label Grid.Column="2" VerticalAlignment="Center" Content="Value:"></Label>
+                <Label Grid.Column="2" VerticalAlignment="Center" Content="数值:"></Label>
                 <mah:NumericUpDown Grid.Column="3"
                                    x:Name="InstantAddValue"
                                    TextAlignment="Left"
@@ -54,7 +54,7 @@
                                    Background="{DynamicResource MahApps.Brushes.AccentBase}"
                                    BorderBrush="{DynamicResource MahApps.Brushes.AccentBase}"/>
                 
-                <Button Content="Add"
+                <Button Content="添加"
                         BorderThickness="0"
                         VerticalAlignment="Center"
                         Grid.Column="4"
@@ -84,7 +84,7 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <Label VerticalAlignment="Center" Content="Currency: "></Label>
+                <Label VerticalAlignment="Center" Content="货币: "></Label>
 
                 <ComboBox x:Name="UnlockBox" 
                           Grid.Column="1"
@@ -117,7 +117,7 @@
 
                 </ComboBox>
 
-                <Label Grid.Column="2" VerticalAlignment="Center" Content="Value:"></Label>
+                <Label Grid.Column="2" VerticalAlignment="Center" Content="数值:"></Label>
                 <mah:NumericUpDown x:Name="ValueBox" 
                                    Grid.Column="3"
                                    IsEnabled="{Binding ViewModel.AreUiElementsEnabled}"

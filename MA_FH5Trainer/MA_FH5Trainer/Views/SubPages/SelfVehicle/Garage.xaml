@@ -18,7 +18,7 @@
                         Orientation="Horizontal"
                         HorizontalAlignment="Center">
                 
-                <Button Content="Clear New Tag On Cars"
+                <Button Content="清除车辆新标签"
                         IsEnabled="{Binding ViewModel.UiElementsEnabled, Mode=OneWay}"
                         BorderThickness="0"
                         VerticalAlignment="Center"
@@ -34,7 +34,7 @@
                            VerticalAlignment="Stretch"
                            Fill="White"/>
                 
-                <Button Content="Fix Empty Thumbnails"
+                <Button Content="修复空缩略图"
                         IsEnabled="{Binding ViewModel.UiElementsEnabled, Mode=OneWay}"
                         BorderThickness="0"
                         VerticalAlignment="Center"
@@ -59,7 +59,7 @@
                     </Grid.ColumnDefinitions>
                     
                     <Button HorizontalAlignment="Stretch"
-                            Content="Clear Garage"
+                            Content="清空车库"
                             IsEnabled="{Binding ViewModel.UiElementsEnabled, Mode=OneWay}"
                             BorderThickness="0"
                             VerticalAlignment="Center"
@@ -80,7 +80,7 @@
                         </Button.CommandParameter>    
                     </Button>
                     
-                    <Label Grid.Column="1" VerticalAlignment="Center" Content="Delete:" Margin="2 0 0 0"/>
+                    <Label Grid.Column="1" VerticalAlignment="Center" Content="删除:" Margin="2 0 0 0"/>
 
                     <ComboBox x:Name="ClearGarageMode"
                               Margin="2 0 0 0"
@@ -109,7 +109,7 @@
                         Orientation="Horizontal"
                         HorizontalAlignment="Center">
                         
-                <Button Content="Make Performance Upgrades Free"
+                <Button Content="免费性能升级"
                         IsEnabled="{Binding ViewModel.UiElementsEnabled, Mode=OneWay}"
                         BorderThickness="0"
                         VerticalAlignment="Center"
@@ -125,7 +125,7 @@
                            VerticalAlignment="Stretch"
                            Fill="White"/>
 
-                <Button Content="Make Visual Upgrades Free"
+                <Button Content="免费外观升级"
                         IsEnabled="{Binding ViewModel.UiElementsEnabled, Mode=OneWay}"
                         BorderThickness="0"
                         VerticalAlignment="Center"

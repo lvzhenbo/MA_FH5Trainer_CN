@@ -69,7 +69,7 @@
          <StackPanel>
 
              <Expander x:Name="AutoshowExpander"
-                       Header="Autoshow"
+                       Header="车展"
                        BorderBrush="{Binding Theming.DarkerColour}"
                        BorderThickness="{StaticResource ControlBorderThickness}"
                        mah:ControlsHelper.CornerRadius="{StaticResource ControlCornerRadius}"
@@ -86,7 +86,7 @@
 
 
              <Expander x:Name="GarageExpander"
-                       Header="Garage"
+                       Header="车库"
                        BorderBrush="{Binding Theming.DarkerColour}"
                        BorderThickness="{StaticResource ControlBorderThickness}"
                        mah:ControlsHelper.CornerRadius="{StaticResource ControlCornerRadius}"
@@ -103,7 +103,7 @@
 
 
              <Expander x:Name="HandlingExpander"
-                       Header="Speedhack"
+                       Header="速度修改"
                        BorderBrush="{Binding Theming.DarkerColour}"
                        BorderThickness="{StaticResource ControlBorderThickness}"
                        mah:ControlsHelper.CornerRadius="{StaticResource ControlCornerRadius}"
@@ -135,7 +135,7 @@
              <Expander x:Name="WheelspinsExpander"
                        BorderBrush="{Binding Theming.DarkerColour}"
                        BorderThickness="{StaticResource ControlBorderThickness}"
-                       Header="Wheelspins"
+                       Header="抽奖"
                        IsEnabled="{Binding ViewModel.Attached}"
                        mah:ControlsHelper.CornerRadius="{StaticResource ControlCornerRadius}"
                        mah:HeaderedControlHelper.HeaderFontWeight="Bold"
@@ -150,7 +150,7 @@
              <Expander x:Name="TimerFreezesExpander"
                        BorderBrush="{Binding Theming.DarkerColour}"
                        BorderThickness="{StaticResource ControlBorderThickness}"
-                       Header="Timer Freezes"
+                       Header="计时器冻结"
                        IsEnabled="{Binding ViewModel.Attached}"
                        mah:ControlsHelper.CornerRadius="{StaticResource ControlCornerRadius}"
                        mah:HeaderedControlHelper.HeaderFontWeight="Bold"
@@ -182,7 +182,7 @@
              <Expander x:Name="EnvironmentExpander"
                        BorderBrush="{Binding Theming.DarkerColour}"
                        BorderThickness="{StaticResource ControlBorderThickness}"
-                       Header="World"
+                       Header="世界"
                        IsEnabled="{Binding ViewModel.Attached}"
                        mah:ControlsHelper.CornerRadius="{StaticResource ControlCornerRadius}"
                        mah:HeaderedControlHelper.HeaderFontWeight="Bold"
@@ -216,7 +216,7 @@
              <Expander x:Name="MiscExpander"
                        BorderBrush="{Binding Theming.DarkerColour}"
                        BorderThickness="{StaticResource ControlBorderThickness}"
-                       Header="EXPERIMENTAL/UNSTABLE"
+                       Header="实验性/不稳定"
                        IsEnabled="{Binding ViewModel.Attached}"
                        mah:ControlsHelper.CornerRadius="{StaticResource ControlCornerRadius}"
                        mah:HeaderedControlHelper.HeaderFontWeight="Bold"
@@ -233,7 +233,7 @@
              <Expander x:Name="MultiExpander"
                        BorderBrush="{Binding Theming.DarkerColour}"
                        BorderThickness="{StaticResource ControlBorderThickness}"
-                       Header="Multipliers"
+                       Header="倍率"
                        IsEnabled="{Binding ViewModel.Attached}"
                        mah:ControlsHelper.CornerRadius="{StaticResource ControlCornerRadius}"
                        mah:HeaderedControlHelper.HeaderFontWeight="Bold"
@@ -271,7 +271,7 @@
                        mah:HeaderedControlHelper.HeaderBackground="{Binding Theming.DarkerColour}"
                        Margin="10 0 10 10"
                        IsEnabled="{Binding ViewModel.Attached}"
-                       Header="Tuning (Tires)"
+                       Header="调校（轮胎）"
                        >
                  <Frame Content="{Binding Converter={StaticResource LocalConverter}, 
                         ConverterParameter={x:Type tnPages:Tires}, Mode=OneWay}"/>
@@ -284,7 +284,7 @@
                        mah:HeaderedControlHelper.HeaderFontSize="11.5"
                        mah:HeaderedControlHelper.HeaderBackground="{Binding Theming.DarkerColour}"
                        Margin="10 0 10 10"
-                       Header="Tuning (Gearing)"
+                       Header="调校（齿比）"
                        IsEnabled="{Binding ViewModel.Attached}"
                        >
                  <Frame Content="{Binding Converter={StaticResource LocalConverter}, 
@@ -300,7 +300,7 @@
                        mah:HeaderedControlHelper.HeaderBackground="{Binding Theming.DarkerColour}"
                        Margin="10 0 10 10"
                        IsEnabled="{Binding ViewModel.Attached}"
-                       Header="Tuning (Alignment)"
+                       Header="调校（定位）"
                        >
                  <Frame Content="{Binding Converter={StaticResource LocalConverter}, 
                         ConverterParameter={x:Type tnPages:Alignment}, Mode=OneWay}"/>
@@ -315,7 +315,7 @@
                        mah:HeaderedControlHelper.HeaderBackground="{Binding Theming.DarkerColour}"
                        Margin="10 0 10 10"
                        IsEnabled="{Binding ViewModel.Attached}"
-                       Header="Tuning (Springs)">
+                       Header="调校（弹簧）">
                  <Frame Content="{Binding Converter={StaticResource LocalConverter}, 
                         ConverterParameter={x:Type tnPages:Springs}, Mode=OneWay}"/>
                  
@@ -329,7 +329,7 @@
                        mah:HeaderedControlHelper.HeaderBackground="{Binding Theming.DarkerColour}"
                        Margin="10 0 10 10"
                        IsEnabled="{Binding ViewModel.Attached}"
-                       Header="Tuning (Damping)"
+                       Header="调校（阻尼）"
                        >
                  <Frame Content="{Binding Converter={StaticResource LocalConverter}, 
                         ConverterParameter={x:Type tnPages:Damping}, Mode=OneWay}"/>
@@ -344,7 +344,7 @@
                        mah:HeaderedControlHelper.HeaderBackground="{Binding Theming.DarkerColour}"
                        Margin="10 0 10 10"
                        IsEnabled="{Binding ViewModel.Attached}"
-                       Header="Tuning (Aero)"
+                       Header="调校（空气动力）"
                        >
                  <Frame Content="{Binding Converter={StaticResource LocalConverter}, 
                         ConverterParameter={x:Type tnPages:Aero}, Mode=OneWay}"/>
@@ -359,7 +359,7 @@
                        mah:HeaderedControlHelper.HeaderBackground="{Binding Theming.DarkerColour}"
                        Margin="10 0 10 10"
                        IsEnabled="{Binding ViewModel.Attached}"
-                       Header="Tuning (Steering)"
+                       Header="调校（转向）"
                        >
                 
                  <Frame Content="{Binding Converter={StaticResource LocalConverter}, 
@@ -375,7 +375,7 @@
                        mah:HeaderedControlHelper.HeaderFontSize="11.5"
                        mah:HeaderedControlHelper.HeaderBackground="{Binding Theming.DarkerColour}"
                        Margin="10 0 10 0"
-                       Header="Tuning (Miscellaneous)"
+                       Header="调校（杂项）"
                        >
                  
                  <Frame Content="{Binding Converter={StaticResource LocalConverter}, 

@@ -21,7 +21,7 @@
                 <mah:ToggleSwitch VerticalAlignment="Center"
                                   MinWidth="0"
                                   FontSize="12"
-                                  Content="All Cars In The Autoshow"
+                                  Content="车展中显示所有车辆"
                                   x:Name="AllCars"
                                   IsOn="{Binding ViewModel.AllCarsEnabled}"
                                   Command="{Binding ViewModel.ExecuteSqlCommand, Mode=OneWay}"
@@ -51,7 +51,7 @@
                                   Margin="10 0"
                                   MinWidth="0"
                                   FontSize="12"
-                                  Content="Only Rare Cars In The Autoshow"
+                                  Content="车展中仅显示稀有车辆"
                                   IsOn="{Binding ViewModel.RareCarsEnabled}"
                                   Command="{Binding ViewModel.ExecuteSqlCommand, Mode=OneWay}"
                                   ContentPadding="-5 0 0 0">
@@ -78,7 +78,7 @@
                 <mah:ToggleSwitch VerticalAlignment="Center"
                                   MinWidth="0"
                                   FontSize="12"
-                                  Content="Free Cars"
+                                  Content="免费车辆"
                                   IsOn="{Binding ViewModel.FreeCarsEnabled}"
                                   Command="{Binding ViewModel.ExecuteSqlCommand, Mode=OneWay}"
                                   ContentPadding="-5 0 0 0">

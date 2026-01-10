@@ -23,7 +23,7 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Content="Amount:"
+                <Label Content="数量:"
                            VerticalAlignment="Center"/>
                 <mah:NumericUpDown x:Name="WSBox" 
                                        Grid.Column="1"
@@ -40,7 +40,7 @@
                             VerticalAlignment="Center"
                             Margin="5 0 0 0"
                             mah:ControlsHelper.FocusBorderThickness="0"
-                            Content="Add Wheelspins"
+                            Content="添加抽奖"
                         Command="{Binding ViewModel.WheelspinsCommand}"
                         CommandParameter="{Binding Value, ElementName=WSBox}"
                             Background="{DynamicResource MahApps.Brushes.AccentBase}"
@@ -57,7 +57,7 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Content="Amount:"
+                <Label Content="数量:"
                            VerticalAlignment="Center"/>
                 <mah:NumericUpDown x:Name="SWSBox" 
                                        Grid.Column="1"
@@ -74,7 +74,7 @@
                             VerticalAlignment="Center"
                             Margin="5 0 0 0"
                             mah:ControlsHelper.FocusBorderThickness="0"
-                            Content="Add Super Wheelspins"
+                            Content="添加超级抽奖"
                         Command="{Binding ViewModel.SuperWheelspinsCommand}"
                         CommandParameter="{Binding Value, ElementName=SWSBox}"
                             Background="{DynamicResource MahApps.Brushes.AccentBase}"
@@ -117,7 +117,7 @@
                                   MinWidth="0"
                                   FontSize="12"
                                   Toggled="SellHackToggle_Toggled"
-                                  Content="Wheelspin Car Sell Price Multiplier"/>
+                                  Content="抽奖车辆售价倍率"/>
             </Grid>
         </Border>
 
@@ -156,7 +156,7 @@
                                   MinWidth="0"
                                   FontSize="12"
                                   Toggled="PrizeHackToggle_Toggled"
-                                  Content="Wheelspin Credits Multiplier"/>
+                                  Content="抽奖金币倍率"/>
             </Grid>
         </Border>
 
@@ -168,7 +168,7 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Padding="0" VerticalAlignment="Center" Margin="8 0 0 0" Content="Emote ID:"/>
+                <Label Padding="0" VerticalAlignment="Center" Margin="8 0 0 0" Content="表情ID:"/>
                 <mah:NumericUpDown Grid.Column="1" TextAlignment="Left"
                                        x:Name="emoteIdBox"
                                        VerticalAlignment="Center"
@@ -183,7 +183,7 @@
                                        Background="{DynamicResource MahApps.Brushes.AccentBase}"
                                        BorderBrush="{DynamicResource MahApps.Brushes.AccentBase}"/>
 
-                <mah:ToggleSwitch Grid.Column="2" Content="Force Emote In Wheelspin (Unstable/Buggy)"
+                <mah:ToggleSwitch Grid.Column="2" Content="强制抽奖表情（不稳定/有问题）"
                                       Toggled="EmoteSwitch_OnToggled"
                                       VerticalAlignment="Center"
                                       Margin="0 0 4 0"

@@ -78,13 +78,13 @@
                            FontWeight="Medium"
                            FontSize="11.5"
                            TextWrapping="Wrap">
-                    <Run Text="This cheat is 100% free. If you paid, you were scammed. Published by the"/>
+                    <Run Text="此修改器100%免费。如果你付费购买，你被骗了。由"/>
                     <Hyperlink NavigateUri="https://discord.gg/rHzev9brJ3"
                                Foreground="DodgerBlue"
-                               RequestNavigate="Hyperlink_OnRequestNavigate">&quot;Merika's Server&quot;</Hyperlink>
-                    <Run Text="Discord." />
+                               RequestNavigate="Hyperlink_OnRequestNavigate">&quot;Merika的服务器&quot;</Hyperlink>
+                    <Run Text="Discord发布。" />
                     <LineBreak/>
-                    <Run Text="Developed by @merikaaaaa on Discord. Others claiming credit are lying." />
+                    <Run Text="由Discord上的 @merikaaaaa 开发。声称是开发者的其他人都在撒谎。" />
                 </TextBlock>
 
                 <StackPanel Grid.Column="1"
@@ -132,7 +132,7 @@
                     <Label Padding="0"
                            FontSize="13.5"
                            FontWeight="Bold"
-                           Content="Game Title"/>
+                           Content="游戏标题"/>
 
                     <Label Padding="0"
                            FontSize="12.5"
@@ -141,7 +141,7 @@
                     <Label Padding="0"
                            FontSize="13.5"
                            FontWeight="Bold"
-                           Content="Process ID"/>
+                           Content="进程ID"/>
 
                     <Label Padding="0"
                            FontSize="12.5"
@@ -150,7 +150,7 @@
                     <Label Padding="0"
                            FontSize="13.5"
                            FontWeight="Bold"
-                           Content="Platform"/>
+                           Content="平台"/>
 
                     <Label Padding="0"
                            FontSize="12.5"
@@ -159,7 +159,7 @@
                     <Label Padding="0"
                            FontSize="13.5"
                            FontWeight="Bold"
-                           Content="Version"/>
+                           Content="版本"/>
 
                     <StackPanel Orientation="Horizontal">
 
@@ -173,7 +173,7 @@
                     <Label Padding="0"
                            FontSize="13.5"
                            FontWeight="Bold"
-                           Content="Trainer Version"/>
+                           Content="修改器版本"/>
 
                     <Label Padding="0"
                            FontSize="12.5"
@@ -182,7 +182,7 @@
                     <Label Padding="0"
                            FontSize="13.5"
                            FontWeight="Bold"
-                           Content="Game Status"/>
+                           Content="游戏状态"/>
 
                     <Label Padding="0"
                            FontSize="12.5"
@@ -194,7 +194,7 @@
                     <Label Padding="0"
                            FontSize="13.5"
                            FontWeight="Bold"
-                           Content="Cheat"/>
+                           Content="功能"/>
 
                     <ComboBox SelectedIndex="0"
                               BorderThickness="0"
@@ -211,7 +211,7 @@
                            FontSize="13.5"
                            FontWeight="Bold"
                            Margin="0 4 0 0"
-                           Content="Set Cheat Hotkey"/>
+                           Content="设置功能热键"/>
 
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -236,7 +236,7 @@
 
                         </Border>
 
-                        <Button Content="SET"
+                        <Button Content="设置"
                                 Margin="8 4 0 0"
                                 Grid.Column="1"
                                 x:Name="set"
@@ -249,7 +249,7 @@
 
                     </Grid>
 
-                    <Button Content="Save All Hotkeys"
+                    <Button Content="保存所有热键"
                             Margin="0 8 0 0"
                             Click="Button_Click"
                             mah:ControlsHelper.FocusBorderThickness="0"
@@ -265,7 +265,7 @@
                             HorizontalAlignment="Stretch"
                             VerticalAlignment="Bottom">
 
-                    <Button Content="Donate to @merikaaaaa"
+                    <Button Content="捐赠给 @merikaaaaa"
                             Command="{Binding ViewModel.OpenURLCommand}"
                             CommandParameter="https://ko-fi.com/merikaaaaa"
                             mah:ControlsHelper.FocusBorderThickness="0"
@@ -275,7 +275,7 @@
 
                     <Rectangle Height="1" Margin="0 8" Fill="White"/>
 
-                    <Button Content="Check for updates"
+                    <Button Content="检查更新"
                             Command="{Binding ViewModel.CheckUpdates_CommandCommand}"
                             mah:ControlsHelper.FocusBorderThickness="0"
                             mah:ControlsHelper.CornerRadius="{StaticResource ControlCornerRadius}"
@@ -284,7 +284,7 @@
 
                     <Rectangle Height="1" Margin="0 8" Fill="White"/>
 
-                    <Button Content="FH5 Emote ID's"
+                    <Button Content="FH5 表情ID"
                             Command="{Binding ViewModel.OpenURLCommand}"
                             CommandParameter="https://gist.github.com/szaaamerik/32beaf577c863161a35618a20eac2463"
                             mah:ControlsHelper.FocusBorderThickness="0"
@@ -292,7 +292,7 @@
                             Background="DimGray"
                             BorderBrush="{DynamicResource MahApps.Brushes.AccentBase}"/>
 
-                    <Button Content="Glowing Paint Instructions"
+                    <Button Content="发光车漆说明"
                             Margin="0 8 0 0"
                             Command="{Binding ViewModel.OpenURLCommand}"
                             CommandParameter="https://gist.github.com/szaaamerik/c822c4544e789085c80316406daa7540"
@@ -303,7 +303,7 @@
 
                     <Rectangle Height="1" Margin="0 8" Fill="White"/>
 
-                    <Button Content="Merika's GitHub"
+                    <Button Content="Merika的GitHub"
                             Command="{Binding ViewModel.OpenURLCommand}"
                             CommandParameter="https://github.com/szaaamerik"
                             mah:ControlsHelper.FocusBorderThickness="0"
@@ -311,7 +311,7 @@
                             Background="{DynamicResource MahApps.Brushes.AccentBase}"
                             BorderBrush="{DynamicResource MahApps.Brushes.AccentBase}"/>
 
-                    <Button Content="Merika's Discord"
+                    <Button Content="Merika的Discord"
                             Margin="0 8 0 0"
                             Command="{Binding ViewModel.OpenURLCommand}"
                             CommandParameter="https://discord.gg/rHzev9brJ3"

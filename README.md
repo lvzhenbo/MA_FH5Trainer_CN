@@ -1,37 +1,37 @@
-# Merika's FH5 Trainer
+# Merika's FH5 修改器（简体中文版）
 
-## Features
+## 功能特性
 
-- **Open Source**: Fully open-source under GNU General Public License v3.0.
+- **开源软件**：基于 GNU 通用公共许可证 v3.0 完全开源。
 
-- **Car Cheats**
-  - Speed hacks, brake hacks, jump hacks, wheelspeed tweaks, and instant stop
-  - Gravity modification, waypoint teleport, freeze AI, no water drag, and noclip
+- **车辆作弊**
+  - 速度修改、刹车修改、跳跃修改、轮速调整和瞬间停止
+  - 重力修改、航点传送、冻结AI、无水阻力和穿墙
 
-- **Unlocks Cheats**
-  - Instantly gain credits, XP, skill points, wheelspins, seasonal points, and series points
+- **解锁作弊**
+  - 即时获得金币、经验值、技能点、抽奖、赛季点数和系列点数
 
-- **Tuning Cheats**
-  - Edit aero, camber, toe, anti-roll bars, ride height, and restriction values directly
+- **调校作弊**
+  - 直接编辑空气动力、外倾角、前束、防倾杆、悬挂高度和限制值
 
-- **User-Friendly GUI**
-  - Accessible mod/cheat toggles and sliders for quick changes
+- **友好的用户界面**
+  - 便捷的修改/作弊开关和滑块，快速调整
 
-- **Community Support**
-  - Discord integration and troubleshooting links
+- **社区支持**
+  - Discord集成和故障排除链接
 
-## Disclaimer
+## 免责声明
 
-- This tool is intended for personal, non-commercial use.
-- The authors are not responsible for any bans, data loss, or damages resulting from use.
+- 本工具仅供个人非商业用途使用。
+- 作者不对因使用本工具而导致的任何封禁、数据丢失或损害承担责任。
 
-## Where can I get more help, if I need it?
+## 需要更多帮助？
 
-For support, please visit our Discord server or open an issue on GitHub.
+如需支持，请访问我们的Discord服务器或在GitHub上提交问题。
 
-Discord: [Discord Server Link](https://discord.gg/rHzev9brJ3)<br/>
-GitHub Issues: [Github Issues Link](https://github.com/szaaamerik/MA_FH5Trainer/issues/new/choose)<br/>
+Discord: [Discord服务器链接](https://discord.gg/rHzev9brJ3)<br/>
+GitHub Issues: [Github问题链接](https://github.com/szaaamerik/MA_FH5Trainer/issues/new/choose)<br/>
 
-## License
+## 许可证
 
-This app is under the GPL-3.0 license. You can find a copy of it [here](LICENSE).
+本应用程序基于 GPL-3.0 许可证。您可以在[此处](LICENSE)找到许可证副本。

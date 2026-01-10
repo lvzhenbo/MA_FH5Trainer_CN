@@ -12,7 +12,7 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Dark.Blue.xaml" />
                 <ResourceDictionary Source="/Resources/Theme/CommonBorderStyle.xaml" />
                 <ResourceDictionary Source="/Resources/Theme/ThemeConstants.xaml" />
-                <ResourceDictionary Source="/Resources/Translations/English.xaml" />
+                <ResourceDictionary Source="/Resources/Translations/ChineseSimplified.xaml" />
                 <ResourceDictionary Source="/Controls/StatusComboboxItem/StatusComboboxItem.xaml" />
                 <ResourceDictionary Source="/Controls/TranslationComboboxItem/TranslationComboboxItem.xaml" />
             </ResourceDictionary.MergedDictionaries>
