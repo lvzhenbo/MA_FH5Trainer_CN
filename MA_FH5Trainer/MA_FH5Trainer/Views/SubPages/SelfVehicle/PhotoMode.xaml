@@ -23,7 +23,7 @@
                     
                         <Label VerticalAlignment="Center"
                                Margin="5 0 0 0"
-                               Content="Modifier settings will appear here after scanning."/>
+                               Content="修改设置将在扫描后显示。"/>
                     
                         <Button HorizontalAlignment="Center"
                                 Content="{DynamicResource Scan}"

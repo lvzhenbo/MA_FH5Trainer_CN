@@ -84,7 +84,7 @@
 
                 <Label Grid.Column="0"
                        VerticalAlignment="Center"
-                       Content="Left(-)/Right(+):"/>
+                       Content="左(-)/右(+):"/>
                 
                 <mah:NumericUpDown x:Name="YValueBox" 
                                    Grid.Column="3"
@@ -102,7 +102,7 @@
 
                 <Label Grid.Column="2"
                        VerticalAlignment="Center"
-                       Content="Up(+)/Down(-):"/>
+                       Content="上(+)/下(-):"/>
                 
                 <mah:ToggleSwitch Grid.Column="4"
                                   x:Name="OffsetSwitch"
@@ -127,7 +127,7 @@
                     
                     <Label VerticalAlignment="Center"
                            Margin="5 0 0 0"
-                           Content="FOV limiter settings will appear here after scanning."/>
+                           Content="视野限制设置将在扫描后显示。"/>
                     
                     <Button HorizontalAlignment="Center"
                             Content="{DynamicResource Scan}"
@@ -165,7 +165,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     
-                    <Label Content="Limiter:" VerticalAlignment="Center"/>
+                    <Label Content="限制器:" VerticalAlignment="Center"/>
                     
                     <ComboBox x:Name="LimiterComboBox" 
                               Grid.Column="1"
@@ -195,7 +195,7 @@
                     
                     <Label Grid.Column="2"
                            VerticalAlignment="Center"
-                           Content="Minimum:"/>
+                           Content="最小值:"/>
                     
                     <mah:NumericUpDown x:Name="LimiterMaxBox" 
                                        Grid.Column="5"
@@ -208,7 +208,7 @@
                     
                     <Label Grid.Column="4"
                            VerticalAlignment="Center"
-                           Content="Maximum:"/>
+                           Content="最大值:"/>
                 </Grid>
             </Grid>
         </Border>
